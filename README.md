@@ -1,2 +1,22 @@
-# ArasTube-Releases
-ArasTube releases: signed APKs and the in-app update manifest (arastubex.json). No source code.
+<div align="center">
+
+# ArasTube
+
+**قناة التنزيل والتحديث الرسمية لتطبيق ArasTube.**
+
+</div>
+
+هذا المستودع **لا يحتوي على كود**، بل على ملفات الإصدارات فقط:
+
+| الملف | لمن |
+| :-- | :-- |
+| `ArasTube_<version>_arm64-v8a.apk` | معظم الهواتف |
+| `ArasTube_<version>_armeabi-v7a.apk` | الهواتف القديمة أو 32-bit |
+| `ArasTube_<version>_universal.apk` | إن لم تكن متأكدًا — يعمل على الكل |
+| `arastubex.json` | ملف التحديث الذي يقرأه التطبيق من داخله (الإعدادات › حول) |
+
+## التنزيل
+
+افتح [أحدث إصدار](../../releases/latest) ونزّل الملف المناسب لهاتفك.
+
+نفس مفتاح التوقيع في كل إصدار، فالتحديث يُثبَّت فوق النسخة القديمة دون فقدان بيانات.
